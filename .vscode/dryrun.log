@@ -1,0 +1,13 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/muhammadiqbal/Documents/github/sicepat-test'
+for f in sicepat; do \
+		/Library/Developer/CommandLineTools/usr/bin/make -C ${f} migrate; \
+	done
+ 
+make[1]: Entering directory `/Users/muhammadiqbal/Documents/github/sicepat-test/sicepat'
+for f in 1users.sql; do \
+		docker exec -i db-sicepat mysql -uroot -ptest_pass < migrations/${f}; \
+	done
+make[1]: Leaving directory `/Users/muhammadiqbal/Documents/github/sicepat-test/sicepat'
+make: Leaving directory `/Users/muhammadiqbal/Documents/github/sicepat-test'
+ 

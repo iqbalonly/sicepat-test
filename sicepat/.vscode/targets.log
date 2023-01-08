@@ -1,0 +1,339 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
+
+
+# Make data base, printed on Sun Jan  8 19:05:27 2023
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+AWS_SECRET_ACCESS_KEY = hDzHKnLrnaF96XC7qf9VJ8KlsoWtmL3JaKy/13Cx
+# environment
+CFGSDK_LAUNCHDARKLY_API_KEY = sdk-1585380c-6fc7-492e-939e-65b7a334aab0
+# environment
+NVM_INC = /Users/muhammadiqbal/.nvm/versions/node/v17.8.0/include/node
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/muhammadiqbal/Documents/github/sicepat-test/sicepat
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# environment
+GOOGLE_APPLICATION_CREDENTIALS = /Users/muhammadiqbal/Documents/doc/aksesmu/alfamikro-k8s-nonprod-964970bc9142.json
+# environment
+BNI_CLIENT_SECRET = 6965d59c-3fe7-427e-8911-a9d02c30ce7b
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+TRANSFEROUT_SERVICE_SECRET = vs6PmiIKlz93yewACxfKC3BQhzY3JzrI
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+SPRING_CLOUD_CONFIG_SERVICE_URL = http://20.96.0.147:8888/service-transaction/
+# environment
+FAST_DANAMON_ADDITIONAL_KEY = LJLiP4IITLiFlCZU6Cje0fCv4lTilXry
+# environment
+VSCODE_CWD = /
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+PATH = /usr/local/go/bin:/opt/homebrew/opt/openjdk/bin:/Users/muhammadiqbal/.nvm/versions/node/v17.8.0/bin:/Applications/sonar-scanner/bin:/Users/muhammadiqbal/.local/share/solana/install/active_release/bin:/opt/homebrew/opt/openssl@3/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/muhammadiqbal/.cargo/bin:/usr/local/go:/Users/muhammadiqbal/go:/Users/muhammadiqbal/go/bin:/Users/muhammadiqbal/bin
+# environment
+GOPATH = /Users/muhammadiqbal/go
+# environment
+NVM_BIN = /Users/muhammadiqbal/.nvm/versions/node/v17.8.0/bin
+# environment
+SPRING_CLOUD_CONFIG_PATHS = /base-default/dev,/service-transactionv3/stgkube,/service-transactionv3/stgkube-local,/debug-logging/local
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+ALFAMIKRO_CONFIG_ENV = local
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+define BCA_PRIVATE_KEY
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAghghSSsbhCKBllAWbLmqdvqkg/b/yrRXE3PHzH2zkOVUgV/u
+YtmLAaMUOt4UGiBKQa4TcRPPf6ITQpHCrpgpCadQAvikTFF+BW7pBdSvfZQVsscf
+9MGLFkz7+uQlcnrDotHjeQ1Ei4wWU/kqe5rLRJZMl2+91yxWeaLTgockF6Mb8XrR
+DI4DdaxBY0Lr0B20QqOFgM54ti1i628vAQGFFZPw2rgKufLOmRkJ9A8+vjVhXxC3
+8sB2Is81okJcQKsLQZT4IqLxayF8jfr2j9mZtTCpoBdjQIVcbCbOFKtNN7c1j7wy
+c8T9lWPPY43vKzfNf73w9JzKLfH6M8LDfJFIzwIDAQABAoIBAAsi2aaTxBU5hvJB
+BMpl0kvBBNgvCpJlgZausIm2sOpUVzmD5robeSS4uwCXBg1+ehzJM+zYD0kTrKZk
+J9AeQlULN3QpqJbH2wvIBLZ1EFilln3pQbkH4EoWaPN/GB2GmLyVTu2LzzRK15Z0
+m8hc5c2HOCM2c3+50eUzpPtlaheDxRP5STPZVVpz87UyK09FAstzGNYmzZ733lDV
+JoVGaa7hWTxzm4M4oxo2Bb06FSW2g3HKkqWC8PGBQ4nxDo7Xy3AkEYI3fGsYXbjC
+fn/xMly/ARFWM1sICJTHzNdpHPIBuYtRJ8bEgc1Pew8g+JfAA1BFCWvYqcwjxIr9
+6+JEfsECgYEA3AQdKGGq2sSPghbBbeWMotXxzXtwxJjxFAvRR32riIiu/qdtoC29
+rsBpjvSs4jFVd4II6cE7xy0xJLtOU6asNIfhJbL3k3/f+HCN2PzkHwsNHIG6Xb8v
+m9W+YCJudOmQJzfWUDcwfYk+uL0f6DnhGpazr5HkPmvicVzEsV3cRBECgYEAl18Q
+8SwA8qwf18wCbVTgX/u2XD33lnabnz8a4F/5N4pKs7FKPDz7bgW4Jyik9+THZsrG
+zepw8wXxzNqyTLC0WmyyYLTNp1x7EUBfAM40QYjydXcbXrTti28OGAKTh/DB3OvO
+vl9uO+FfwWFXIdVK4Ie8JWsFrn5ciBM04aY4Ht8CgYBgeiVXCczj9YGAZ/4V9KzA
+0tQfaNvAOditE6mHkeHgEx+5Zy25KZWdxZ4EI+KTpVJ2/zxtVGCkLHr6QnBMWi/1
+MQhXgazyrwZFaQWqeuqFelEbiP9yEF4OFaJPgYmyFqExsVh3AFxxD/fDBpuxN4Aw
+KplMicruXFyFnUpbBG+MIQKBgGFZfmfcSO/IyuHaDmWKBJM2Kt2/7I8T0Jnl178d
+egXCJrDSAFAlV/42J2znstDKjYMKPjkH4YQp+owoyiqQKi1NYprXLLvJukwp/e9i
+rjDHhkcNRsjtyye1UHcYkREIQWV3Mgs1DIvuMcsIcyULK5CjOtlFru29znyk/Ylx
+gP45AoGBAIBkUjJo+xd7sNNhNCW07rUiAWegEHOIk5pWzwLDlY2AVK9/tlNBI6wD
+GWLT6L5B9reN+982tOEBAYlP/p2e+eUBy8BPgvqbsPD3yHD3pR8WibrNEVwGhL8P
+SC/C9azKvNlBsN1HRWdRrEN9Fx5Eu15XNBlKX1RIiHkv8iW1n6F9
+-----END RSA PRIVATE KEY-----
+endef
+# environment
+BRI_CLIENT_SECRET = tgukD8TSItlFi4l3
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.7hngj6oGvd/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+GOBIN = /Users/muhammadiqbal/go/bin
+# environment
+POS_GCP_CRED_JSON = Users/muhammadiqbal/Documents/doc/aksesmu/alfamikro-pos-sis-nonprod-539e31b9bbeb.json
+# environment
+PWD = /Users/muhammadiqbal/Documents/github/sicepat-test/sicepat
+# environment
+ 
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+GOMODCACHE = /Users/muhammadiqbal/go/pkg/mod
+# environment
+NOBU_CLIENT_SECRET = 5d6780e9-7518-469c-960f-93a94d30f5ab
+# environment
+HOME = /Users/muhammadiqbal
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/muhammadiqbal/Library/Application Support/Code/CachedData/e8a3071ea4344d9d48ef8a4df2c097372b0c5161
+# environment
+LOGNAME = muhammadiqbal
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+NVM_CD_FLAGS = -q
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = muhammadiqbal
+# environment
+ELASTIC_APM_ENVIRONMENT = staging-local
+# environment
+define PRIVATE_KEY
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAghghSSsbhCKBllAWbLmqdvqkg/b/yrRXE3PHzH2zkOVUgV/u
+YtmLAaMUOt4UGiBKQa4TcRPPf6ITQpHCrpgpCadQAvikTFF+BW7pBdSvfZQVsscf
+9MGLFkz7+uQlcnrDotHjeQ1Ei4wWU/kqe5rLRJZMl2+91yxWeaLTgockF6Mb8XrR
+DI4DdaxBY0Lr0B20QqOFgM54ti1i628vAQGFFZPw2rgKufLOmRkJ9A8+vjVhXxC3
+8sB2Is81okJcQKsLQZT4IqLxayF8jfr2j9mZtTCpoBdjQIVcbCbOFKtNN7c1j7wy
+c8T9lWPPY43vKzfNf73w9JzKLfH6M8LDfJFIzwIDAQABAoIBAAsi2aaTxBU5hvJB
+BMpl0kvBBNgvCpJlgZausIm2sOpUVzmD5robeSS4uwCXBg1+ehzJM+zYD0kTrKZk
+J9AeQlULN3QpqJbH2wvIBLZ1EFilln3pQbkH4EoWaPN/GB2GmLyVTu2LzzRK15Z0
+m8hc5c2HOCM2c3+50eUzpPtlaheDxRP5STPZVVpz87UyK09FAstzGNYmzZ733lDV
+JoVGaa7hWTxzm4M4oxo2Bb06FSW2g3HKkqWC8PGBQ4nxDo7Xy3AkEYI3fGsYXbjC
+fn/xMly/ARFWM1sICJTHzNdpHPIBuYtRJ8bEgc1Pew8g+JfAA1BFCWvYqcwjxIr9
+6+JEfsECgYEA3AQdKGGq2sSPghbBbeWMotXxzXtwxJjxFAvRR32riIiu/qdtoC29
+rsBpjvSs4jFVd4II6cE7xy0xJLtOU6asNIfhJbL3k3/f+HCN2PzkHwsNHIG6Xb8v
+m9W+YCJudOmQJzfWUDcwfYk+uL0f6DnhGpazr5HkPmvicVzEsV3cRBECgYEAl18Q
+8SwA8qwf18wCbVTgX/u2XD33lnabnz8a4F/5N4pKs7FKPDz7bgW4Jyik9+THZsrG
+zepw8wXxzNqyTLC0WmyyYLTNp1x7EUBfAM40QYjydXcbXrTti28OGAKTh/DB3OvO
+vl9uO+FfwWFXIdVK4Ie8JWsFrn5ciBM04aY4Ht8CgYBgeiVXCczj9YGAZ/4V9KzA
+0tQfaNvAOditE6mHkeHgEx+5Zy25KZWdxZ4EI+KTpVJ2/zxtVGCkLHr6QnBMWi/1
+MQhXgazyrwZFaQWqeuqFelEbiP9yEF4OFaJPgYmyFqExsVh3AFxxD/fDBpuxN4Aw
+KplMicruXFyFnUpbBG+MIQKBgGFZfmfcSO/IyuHaDmWKBJM2Kt2/7I8T0Jnl178d
+egXCJrDSAFAlV/42J2znstDKjYMKPjkH4YQp+owoyiqQKi1NYprXLLvJukwp/e9i
+rjDHhkcNRsjtyye1UHcYkREIQWV3Mgs1DIvuMcsIcyULK5CjOtlFru29znyk/Ylx
+gP45AoGBAIBkUjJo+xd7sNNhNCW07rUiAWegEHOIk5pWzwLDlY2AVK9/tlNBI6wD
+GWLT6L5B9reN+982tOEBAYlP/p2e+eUBy8BPgvqbsPD3yHD3pR8WibrNEVwGhL8P
+SC/C9azKvNlBsN1HRWdRrEN9Fx5Eu15XNBlKX1RIiHkv8iW1n6F9
+-----END RSA PRIVATE KEY-----
+endef
+# makefile
+.DEFAULT_GOAL := migrate
+# environment
+GOROOT = /usr/local/go
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+AWS_ACCESS_KEY_ID = AKIA2QVSHOQQ5VQPQJ6A
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/hs/yyhl3sx577gbhq67cmq_5mlh0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/muhammadiqbal/Library/Application Support/Code/1.74.2-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+NVM_DIR = /Users/muhammadiqbal/.nvm
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.23209047.23209053
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BCA_CLIENT_SECRET = 72d2df71-453d-4aef-a2ae-b996b1010f82
+# environment
+MANDIRI_CLIENT_SECRET = b0cea34b-9023-4a65-b75d-5844ec4b68b4
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+ELASTIC_APM_SERVICE_NAME = alfamikro_paspromo_trx_1
+# environment
+COMMAND_MODE = unix2003
+# environment
+SPRING_CLOUD_CONFIG_URL = file:///Users/muhammadiqbal/Documents/doc/aksesmu/config.yml
+# default
+MAKEFILES := 
+# environment
+FAST_DANAMON_CLIENT_SECRET = 11b757e0-5302-4e1c-bfac-0c7f0f8c3169
+# automatic
+<F = $(notdir $<)
+# environment
+FAST_DANAMON_API_SECRET = f7723576-b0ef-4fb2-8a21-272b2d343037
+# environment
+ELASTIC_APM_SERVER_URL = http://20.96.0.125:8200
+# environment
+LC_ALL = C
+# environment
+SNAP_NOBU_CLIENT_SECRET = 11b757e0-5302-4e1c-bfac-0c7f0f8c3169
+# automatic
+^F = $(notdir $^)
+# environment
+FAST_DANAMON_API_KEY = abff8c69-298f-4281-89b0-9d0a3fba05f5
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 50229
+# variable set hash-table stats:
+# Load=92/1024=9%, Rehash=0, Collisions=6/116=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777232, inode 23262460): 14 files, no impossibilities.
+
+# 14 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+ 
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: migrate
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2023-01-08 16:00:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+migrate:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 3):
+	for f in $(shell ls migrations); do \
+	docker exec -i db-sicepat mysql -uroot -ptest_pass < migrations/$${f}; \
+	done
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/19=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun Jan  8 19:05:27 2023
+
+ 

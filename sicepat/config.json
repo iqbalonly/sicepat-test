@@ -1,0 +1,9 @@
+{
+    "server": "0.0.0.0:9999",
+    "mysql": {
+        "host": "db-sicepat:3606",
+        "username": "root",
+        "password": "test_pass",
+        "databaseName": "db_sicepat"
+    }
+}

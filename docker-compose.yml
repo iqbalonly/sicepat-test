@@ -1,0 +1,46 @@
+version: '3'
+services:
+  db-sicepat:
+    platform: linux/amd64
+    container_name: db-sicepat
+    image: mysql:5.7
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: "test_pass"
+      MYSQL_USER: "test"
+      MYSQL_PASS: "pass"
+      MYSQL_PASSWORD: "pass"
+      MYSQL_TCP_PORT: "3606"
+    volumes:
+      - ./initdb/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - my-sicepatvoloume:/var/lib/mysql
+    ports:
+      - "3606:3606"
+    expose:
+      - "3606"
+    networks:
+      - sicepat_test
+
+  sicepat:
+    platform: linux/amd64
+    container_name: sicepat
+    build: 
+      context: ./sicepat
+      dockerfile: ./Dockerfile
+      args:
+        port: 9999
+    ports:
+      - "9999:9999"
+    expose:
+      - "9999"
+    restart: on-failure
+    networks:
+      - sicepat_test
+
+networks:
+  sicepat_test:
+    driver: bridge
+
+volumes:
+  my-sicepatvoloume:
